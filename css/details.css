@@ -1,0 +1,151 @@
+/* details.css */
+.h10{height:10rem; overflow:hidden; clear:both;}
+.h450{height: 450px;}
+.w10 {width: 10rem;}
+.ccsl{ display:block;overflow:hidden; white-space:nowrap;text-overflow:ellipsis;}
+.maiWarp{ width:1100px; margin:0 auto; padding:30px 0; overflow:hidden}
+
+
+.prroimg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.culturePart1 {
+    background: #fcfcfc;
+    padding: 0.3rem 0.3rem;
+}
+.contentDiv {
+    width: 100%;
+}
+
+.contentDiv .textarea {
+    font-size: 16px;
+    line-height: 2;
+    padding: 0.2rem 0.3rem ;
+
+}
+.contentDiv .textarea p {
+    font-size: 18px;
+}
+.contentDiv .mxfDiv .imgDiv {
+    /*限定图片盒子宽高*/
+    width:500px;
+    /* height:500px; */
+    margin: 0 auto;
+}
+.contentDiv .mxfDiv .imgDiv img {
+    /* display: block; */
+    padding: 10px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+     /*不定宽高的图片居中显示*/
+     /* position: relative;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%) */
+    /* margin: 0 auto; */
+  
+}
+
+.contentrightDiv {
+    position: absolute;
+    top: 60px;
+    right: 350px;
+    z-index: 4;
+}
+
+.treflip {
+    background: none;
+}
+.treflip2 {
+    padding: 0.3rem 0.3rem;
+}
+
+
+.znc-showproduct-head {
+    background: #ffff;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+}
+.znc-showproduct-list {
+    min-height: 200px;
+    width: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+.showcaseimg {
+    width: 70%;
+    height:100%;
+}
+
+.product-intro {
+    padding: 10px 0 0 10px;
+}
+.znc-showproduct-head .product-intro h1 {
+    margin-top: 0px;
+    font-size: 28px;
+    margin-bottom: 15px;
+
+}
+.znc-showproduct-head .product-intro p.description {
+    margin-bottom: 15px;
+    color: #5e7387;
+    font-size: 16px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.znc-showproduct-head .product-intro .para {
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+    padding: 0px;
+    padding-bottom: 0px;
+    line-height: 24px;
+    color: #5e7387;
+}
+
+
+/* 新闻详情内容样式  */
+.newsDetails .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+
+}
+.newsDetails .meta {
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #888;
+    line-height: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.entry .imgbox {
+    /*限定图片盒子宽高*/
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.entry img {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
